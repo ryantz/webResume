@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
+        <!--class name multiple, id name unique-->
         <head>
+                <link rel = "stylesheet" href = "ui.css">
                 <title>More about Ryan</title>
-                <link rel = "icon" type = "image/png" href = "./icons/beer.png">
-                <div class = "head" id = "head">
+                <link rel = "icon" type = "image/png" href = "../icons/beer.png">
+                <div class = "section-head" id = "head">
                         <h1>Welcome to my Webpage Resume</h1>
                 </div>
-                <!--navbar-->
         </head>
 
         <body>
                 <div class = "nav" id = "nav">
                         <a href="#aboutMe">About Me</a>
-                        <div class = "dropdown edu">
-                                <button class = "edu drop">Education
+                        <div class = "dropdown">
+                                <button class = "dropbutton">Education
                                         <i class = "fa fa-caret-down"></i>
                                 </button>
-                                <div class = "eduDropContent">
+                                <div class = "dropContent">
                                         <a href = "#postGrad">Post Grad studies</a>
                                         <a href = "#underGrad">Undergraduate sudies</a>
                                         <a href = "#diploma">Diploma</a>
@@ -26,7 +27,7 @@
                                 <button class = "dropbutton">Work Experience
                                         <i class = "fa fa-caret-down"></i>
                                 </button>
-                                <div class = "dropcontent">
+                                <div class = "dropContent">
                                         <a href="#trinax">Trinax</a>
                                         <a href="#lidl">Lidl & Kaufland</a> 
                                         <a href="#pac">Pacific Meta</a> 
@@ -39,10 +40,10 @@
                         <a href="#links">My Links</a> 
                </div>
 
-                <div class = "aboutMe" id = "aboutMe">
+                <div class = "section" id = "aboutMe">
                         <h2> About me </h2>
                         <figure>
-                                <img src = "./img/displayPic.jpg" alt = "Display Picture" width="180" height="200">
+                                <img src = "../img/displayPic.jpg" alt = "Display Picture" width="180" height="200">
                                 <figcaption> This is Me! </figcaption>
                         </figure>
 
@@ -55,9 +56,9 @@
                         </p>
                         </div>
 
-                <div class = "edu" id = "edu">
+                <div class = "section" id = "education">
                         <h2> Education </h2>
-                        <div class = "postGrad" id = "postGrad">
+                        <div class = "edu" id = "postGrad">
                         <h3>Nanyang Technological University</h3>
                         <p> Masters (MSc) in Artificial Intelligence <br> July 2022 - December 2024 <br><br>
                             Modules taken:<br>
@@ -72,7 +73,7 @@
                         </p>
                         </div>
 
-                        <div class = "underGrad" id = "underGrad">
+                        <div class = "edu" id = "underGrad">
                         <h3>Nanyang Technological University</h3>
                         <p> Bachelor (BEng) in Electrical and Electronic Engineering <br> Specialising in Computing <br> 2019 - 2022 <br><br>
                             Some notable school projects:<br>
@@ -84,7 +85,7 @@
                         </p>
                         </div>
 
-                        <div class = "diploma" id = "diploma">
+                        <div class = "edu" id = "diploma">
                         <h3>Temasek Polytechnic</h3>
                         <p> Diploma (with Merit) in Biomedical Engineering <br> 2014 - 2017 <br><br>
                             Notable achievements:<br>
@@ -96,10 +97,10 @@
                         </div>
                 </div>
 
-                <div class = "workEx" id = "workEx">
+                <div class = "section" id = "workExperience">
                         <h2> Work Experience </h2>
 
-                        <div class = "trinax" id = "trinax">
+                        <div class = "workEx" id = "trinax">
                         <h3>Trinax</h3>
                         <p>Quality Assurance Engineer Intern <br> August 2024 - Present <br><br>
                            Tasks performed: <br>
@@ -112,7 +113,7 @@
                            </ul>
                         </div>
 
-                        <div class = "lidl" id = "lidl">
+                        <div class = "workEx" id = "lidl">
                         <h3>Lidl & Kaufland Asia</h3>
                         <p>IT Intern<br> November 2023 - June 2024 <br><br>
                            Tasks performed: <br>
@@ -125,7 +126,7 @@
                            </ul> 
                         </div>
 
-                        <div class = "pac" id = "pac"> 
+                        <div class = "workEx" id = "pac"> 
                         <h3>Pacific Meta</h3>
                         <p>Research Analyst Intern <br> January 2022 - August 2022 <br><br>
                            Tasks performed: <br>
@@ -138,7 +139,7 @@
                            </ul> 
                         </div>
 
-                        <div class = "hw" id = "hw"> 
+                        <div class = "workEx" id = "hw"> 
                         <h3>Honeywell</h3>
                         <p>Field Service Engineer Intern <br> January 2021 - May 2021 <br><br>
                            Tasks performed: <br>
@@ -151,7 +152,7 @@
                            </ul> 
                         </div>
 
-                        <div class = "tp" id = "tp"> 
+                        <div class = "workEx" id = "tp"> 
                         <h3>Temasek Polytechnic (inhouse)</h3>
                         <p>Research Intern <br> 2016 <br><br>
                            Tasks performed: <br>
@@ -166,7 +167,7 @@
  
                 </div>
 
-                <div class = "projects" id = "projects">
+                <div class = "section" id = "projects">
                         <h2> Projects </h2>
                         
                         <div class = "restts" id = "restts">
@@ -188,9 +189,9 @@
         <footer>
                 <div class = "links" id = "links">
                         <h4>My links:</h4>
-                        <a href = "https://www.linkedin.com/in/rtzy/" target = "_blank"><img src = "./icons/linkedin.png" alt = "Linkedin icon" width = "20" height = "20"></a>
-                        <a href = "https://github.com/ryantz" target = "_blank"><img src = "./icons/github.png" alt = "Github icon" width = "20" height = "20"></a>
-                        <a href = "https://www.hackerrank.com/profile/ryantanzhi1997" target = "_blank"><img src = "./icons/hackerrank.png" alt = "Github icon" width = "20" height = "20"></a>
+                        <a href = "https://www.linkedin.com/in/rtzy/" target = "_blank"><img src = "../icons/linkedin.png" alt = "Linkedin icon" width = "20" height = "20"></a>
+                        <a href = "https://github.com/ryantz" target = "_blank"><img src = "../icons/github.png" alt = "Github icon" width = "20" height = "20"></a>
+                        <a href = "https://www.hackerrank.com/profile/ryantanzhi1997" target = "_blank"><img src = "../icons/hackerrank.png" alt = "Github icon" width = "20" height = "20"></a>
                 </div>
 
                 <div class = "top" id = "top">
