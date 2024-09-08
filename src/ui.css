@@ -4,7 +4,8 @@ body {
 
 .section {
          background-color: #eff2c8;
-         outline: #000000;
+         padding: 12px 16px;
+         outline: #bdba7c;
          outline-style: solid;
 }
 
@@ -16,6 +17,8 @@ h1 {
 .nav {
         background-color: #93975e;
         overflow: hidden;
+        outline: #bdba7c;
+        outline-style: outset;
 }
 
 .nav a {
