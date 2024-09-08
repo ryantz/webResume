@@ -9,6 +9,26 @@ body {
          outline-style: solid;
 }
 
+#bkToTop {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        border: none;
+        outline: #bdba7c;
+        outline-style: outset;
+        background-color: #e5dc30;
+        color: black;
+        padding: 15px;
+        border-radius: 15px;
+        font-size: 16px;
+}
+
+#bkToTop:hover {
+        background-color: #d5cd45;
+        color: black;
+}
+
 h1 {
         text-align: center;
 }

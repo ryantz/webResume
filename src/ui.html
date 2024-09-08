@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
         <!--class name multiple, id name unique-->
         <head>
+                <meta charset = "UTF-8">
                 <link rel = "stylesheet" href = "ui.css">
                 <title>More about Ryan</title>
                 <link rel = "icon" type = "image/png" href = "../icons/beer.png">
@@ -10,7 +11,11 @@
                 </div>
         </head>
 
-        <body>
+        <body>  
+                <button onclick = "topFunction()" id = "bkToTop">Back To Top</button>
+                <script src = "ui.js"></script>
+
+ 
                 <div class = "nav" id = "nav">
                         <a href="#aboutMe">About Me</a>
                         <div class = "dropdown">
@@ -38,9 +43,9 @@
   
                         <a href="#projects">Projects</a> 
                         <a href="#links">My Links</a> 
-               </div>
+               </div> 
 
-                <div class = "section" id = "aboutMe">
+               <div class = "section" id = "aboutMe">
                         <h2> About me </h2>
                         <figure>
                                 <img src = "../img/displayPic.jpg" alt = "Display Picture" width="180" height="200">
@@ -192,10 +197,6 @@
                         <a href = "https://www.linkedin.com/in/rtzy/" target = "_blank"><img src = "../icons/linkedin.png" alt = "Linkedin icon" width = "20" height = "20"></a>
                         <a href = "https://github.com/ryantz" target = "_blank"><img src = "../icons/github.png" alt = "Github icon" width = "20" height = "20"></a>
                         <a href = "https://www.hackerrank.com/profile/ryantanzhi1997" target = "_blank"><img src = "../icons/hackerrank.png" alt = "Github icon" width = "20" height = "20"></a>
-                </div>
-
-                <div class = "top" id = "top">
-                        <a href = "#head">Back to the top</a>
                 </div>
         </footer>
                 
