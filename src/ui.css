@@ -9,6 +9,24 @@ body {
          outline-style: solid;
 }
 
+.edu:hover {
+        background-color: #8e8933;
+        font-size: 20px;
+        padding: 12px 16px;
+        outline: #67653c;
+        outline-style: dotted;
+        color: white;
+}
+
+.workEx:hover {
+        background-color: #8e8933;
+        font-size: 20px;
+        padding: 12px 16px;
+        outline: #67653c;
+        outline-style: dotted;
+        color: white;
+} 
+
 #bkToTop {
         display: none;
         position: fixed;
@@ -70,6 +88,8 @@ h1 {
 .nav a:hover, .dropdown:hover .dropbutton {
         background-color: #e4e9a0;
         color: black;
+        outline: black;
+        outline-style: solid;
 }
 
 .dropContent {
