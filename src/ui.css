@@ -25,6 +25,15 @@ body {
         outline: #67653c;
         outline-style: dotted;
         color: white;
+}
+
+.restts:hover {
+        background-color: #8e8933;
+        font-size: 20px;
+        padding: 12px 16px;
+        outline: #67653c;
+        outline-style: dotted;
+        color: white;
 } 
 
 #bkToTop {
