@@ -1,21 +1,4 @@
-/*
-let bttButton = document.getElementById("bkToTop");
-
-window.onscroll = function () {scrollfunction()};
-
-function scrollfunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                bttButton.style.display = "block";
-        } else {
-                bttButton.style.display = "none";
-        }
-}
-
-function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-}
-*/
+// back top top button
 
 let bttBtn = document.getElementById("bkToTop");
 
@@ -32,4 +15,13 @@ function scrollfunction() {
 bttBtn.addEventListener("click", () => {
         window.scrollTo({top: 0, behavior: "smooth"});
 });
+
+// submit button
+
+let subBtn = document.getElementById("submit");
+
+subBtn.addEventListener("click", () => {
+        window.alert("Thank you for submitting!");
+});
+
 

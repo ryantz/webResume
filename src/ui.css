@@ -2,12 +2,30 @@ body {
         background-color: #fbfde5;
 }
 
-
 .section {
          background-color: #eff2c8;
          padding: 50px 100px;
          outline: #bdba7c;
          outline-style: solid;
+}
+
+.signin {
+        color: black;
+        font-family: Arial;
+        font-weight: bold;
+        background-color: #eff2c8;
+        padding: 10px 10px;
+        font-family: Arial;
+        outline: #bdba7c;
+        outline-style: outset; 
+}
+
+form {
+        text-align: right;
+}
+
+.signin .cname {
+        right: 20px;
 }
 
 h2 {
@@ -50,6 +68,7 @@ h2 {
 } 
 
 #bkToTop {
+        display: none;
         position: fixed;
         bottom: 20px;
         right: 30px;
